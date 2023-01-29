@@ -3,6 +3,15 @@ enable_rule_generator=true
 overwrite_original_rules=true
 ruleset=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/optimized_ruleset.list
 
-custom_proxy_group=Proxies`select`[]Fallback`[]🚀 HK`[]🚀 SG`[]🚀 JP`[]🚀 US`[]🚀 TW`.*`[]DIRECT
+custom_proxy_group=Proxies`load-balance`[]🚀 HK`[]🚀 SG`[]🚀 JP`[]🚀 KR`[]🚀 TW`
+🚀 HK`url-test`香港`https://www.youtube.com/`600
+🚀 SG`url-test`新加坡`https://www.youtube.com/`600
+🚀 TW`url-test`台湾`https://www.youtube.com/`600
+🚀 JP`url-test`日本`https://www.youtube.com/`600
+🚀 KR`url-test`韩国`https://www.youtube.com/`600
+
+
+
+
 custom_proxy_group=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/custom_group_common.list
-custom_proxy_group=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/custom_group_urltest.list
+

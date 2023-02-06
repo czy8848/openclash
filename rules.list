@@ -54,16 +54,11 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🚀 手动切换`[]🥇 故障切换
-
-custom_proxy_group=🥇 故障切换`fallback`[]🥇 优选1`[]🥇 优选2`[]🥇 优选3`http://www.gstatic.com/generate_204`5
-custom_proxy_group=🥇 优选1`select`.*`[]DIRECT
-custom_proxy_group=🥇 优选2`select`.*`[]DIRECT
-custom_proxy_group=🥇 优选3`select`.*`[]DIRECT
+custom_proxy_group=🚀 节点选择`fallback`[]♻️ 自动选择`[]🚀 手动切换`http://www.gstatic.com/generate_204`5
 
 custom_proxy_group=🚀 手动切换`select`.*`[]DIRECT
-
 custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`1200,,100
+
 custom_proxy_group=🥤 油管视频`select`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 ;custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 

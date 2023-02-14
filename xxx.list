@@ -9,6 +9,5 @@ Proxy Group: # 服务器策略组信息，此参数必须保留,不能删除
 
 
 
-
-- enable_rule_generator=true
-- overwrite_original_rules=true
+enable_rule_generator=true
+overwrite_original_rules=true

@@ -1,12 +1,20 @@
 [custom]	
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+
 ruleset=📢 GoogleFCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+
 ruleset=Ⓜ️ OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 ruleset=🌏 ChinaMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-ruleset=🥤 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+
+
+ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=🌍 ProxyMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+
+
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
@@ -15,13 +23,18 @@ ruleset=🐟 Final,[]FINAL
 custom_proxy_group=🚀 Proxy`select`[]✈️ AutoProxy`[]🚁 Select
 custom_proxy_group=✈️ AutoProxy`fallback`[]♻️ Auto`[]🚁 Select`http://www.gstatic.com/generate_204`13
 custom_proxy_group=🚁 Select`select`.*`[]DIRECT
-custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1200,5,50
-custom_proxy_group=🥤 YouTube`select`[]🚀 Proxy`[]🚁 Select`[]DIRECT
-custom_proxy_group=🌏 ChinaMedia`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1200,,50
+
+custom_proxy_group=🌍 ProxyMedia`select`[]🚀 Proxy`[]🚁 Select`[]DIRECT
+custom_proxy_group=📲 Telegram`select`[]🚀 Proxy`[]🚁 Select`[]DIRECT
+
+
 custom_proxy_group=📢 GoogleFCM`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=Ⓜ️ OneDrive`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+
+custom_proxy_group=🌏 ChinaMedia`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🎯 DIRECT`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🚁 Select`[]DIRECT
 enable_rule_generator=true

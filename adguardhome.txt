@@ -1,5 +1,5 @@
 
 ! youtube
 
-
+||youtube.com^$third-party
 ||youtube.com/get_video_info**$domain=youtube.com

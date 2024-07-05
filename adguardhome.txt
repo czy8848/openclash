@@ -1,8 +1,5 @@
 
 ! youtube
 
-/googleads.$~script,domain=~googleads.github.io
-/pagead/lvz?
-||google.com/pagead/
-||static.doubleclick.net^$domain=youtube.com
-||youtube.com/get_midroll_
+
+||youtube.com/get_video_info**$domain=youtube.com

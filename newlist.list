@@ -31,7 +31,7 @@ ruleset=🐟 Final,[]FINAL
 
 custom_proxy_group=🚀 Proxy`select`[]✈️ AutoProxy`[]🚁 Select
 custom_proxy_group=✈️ AutoProxy`fallback`[]♻️ Auto`[]🚁 Select`http://www.gstatic.com/generate_204`13
-custom_proxy_group=🚁 Select`select`.*`[]DIRECT
+custom_proxy_group=🚁 Select`select`.*
 custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1200,,50
 
 custom_proxy_group=🌏 Bing`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select

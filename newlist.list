@@ -1,7 +1,6 @@
 [custom]	
 
-ruleset=🛑 BanAD,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-ruleset=🍃 BanProgramAD,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+
 ruleset=🌏 Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
 ruleset=🌏 OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=🌏 Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
@@ -32,8 +31,6 @@ custom_proxy_group=🚁 Select`select`.*`[]DIRECT
 custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1200,,50
 
 
-custom_proxy_group=🛑 BanAD`select`[]REJECT`[]DIRECT
-custom_proxy_group=🍃 BanProgramAD`select`[]REJECT`[]DIRECT
 custom_proxy_group=🌏 Bing`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🌏 OneDrive`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🌏 Microsoft`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select

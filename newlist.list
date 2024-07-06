@@ -2,9 +2,9 @@
 
 ruleset=🛑 BanAD,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 BanProgramAD,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-ruleset=Ⓜ️ Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
-ruleset=Ⓜ️ OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=🌏 Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+ruleset=🌏 OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=🌏 Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 
 
@@ -34,9 +34,9 @@ custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1
 
 custom_proxy_group=🛑 BanAD`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 BanProgramAD`select`[]REJECT`[]DIRECT
-custom_proxy_group=Ⓜ️ Bing`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
-custom_proxy_group=Ⓜ️ OneDrive`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
-custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+custom_proxy_group=🌏 Bing`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+custom_proxy_group=🌏 OneDrive`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+custom_proxy_group=🌏 Microsoft`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🎯 DIRECT`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🚁 Select`[]DIRECT

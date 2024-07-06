@@ -1,7 +1,4 @@
 [custom]	
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/czy8848/openclash/main/Direct.list
-ruleset=🚀 Proxy,https://raw.githubusercontent.com/czy8848/openclash/main/ProxyLite.list
-ruleset=🚀 Proxy,https://raw.githubusercontent.com/czy8848/openclash/main/AI.list
 
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list

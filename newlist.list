@@ -6,6 +6,11 @@ ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
 
 
+
+ruleset=📢 FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=📢 GoogleCN,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+
+
 ruleset=🌏 Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
 ruleset=🌏 OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=🌏 Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
@@ -34,6 +39,9 @@ custom_proxy_group=🚀 Proxy`select`[]✈️ AutoProxy`[]🚁 Select
 custom_proxy_group=✈️ AutoProxy`fallback`[]♻️ Auto`[]🚁 Select`http://www.gstatic.com/generate_204`13
 custom_proxy_group=🚁 Select`select`.*
 custom_proxy_group=♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`1200,,50
+
+custom_proxy_group=📢 FCM`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
+custom_proxy_group=📢 GoogleCN`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 
 custom_proxy_group=🌏 Bing`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select
 custom_proxy_group=🌏 OneDrive`select`[]DIRECT`[]🚀 Proxy`[]🚁 Select

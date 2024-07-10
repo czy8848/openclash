@@ -14,7 +14,7 @@ ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clas
 
 ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-
+ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 
 ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
@@ -23,7 +23,7 @@ ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-
+ruleset=🚀 Proxy,[]GEOSITE,geolocation-!cn
 ruleset=🎯 DIRECT,[]GEOSITE,CN
 ruleset=🎯 DIRECT,[]GEOIP,CN
 

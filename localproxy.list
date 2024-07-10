@@ -11,6 +11,5 @@ DOMAIN-KEYWORD,google
 IP-CIDR,8.8.8.0/24
 IP-CIDR,8.8.4.0/24
 
-DOMAIN-KEYWORD,speedspot
-DOMAIN-KEYWORD,speedcheck
+
 

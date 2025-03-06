@@ -1,5 +1,8 @@
 # 内容：google play
-
+DOMAIN-SUFFIX,github.com
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,windows.net
+DOMAIN-KEYWORD,windows
 DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,google.com

@@ -1,6 +1,10 @@
 # 内容：google play
 DOMAIN-SUFFIX,github.com
 DOMAIN-KEYWORD,github
+
+DOMAIN-SUFFIX,x.com
+
+
 DOMAIN-SUFFIX,windows.net
 DOMAIN-KEYWORD,windows
 DOMAIN-SUFFIX,services.googleapis.cn

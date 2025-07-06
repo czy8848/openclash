@@ -1,6 +1,8 @@
 # 内容：自定义翻墙名单
-DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,github.com
+
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 
 

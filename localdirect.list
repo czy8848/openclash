@@ -1,8 +1,10 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-DOMAIN-SUFFIX,mjtt.org
 DOMAIN-KEYWORD,mjtt
-DOMAIN-SUFFIX,dytt8899.com
 DOMAIN-KEYWORD,dytt
+DOMAIN-SUFFIX,mjtt.org
+DOMAIN-SUFFIX,dytt8899.com
+DOMAIN-SUFFIX,abkc4.com
 PROCESS-NAME,msedge.exe
 PROCESS-NAME,jianpian.exe
 PROCESS-NAME,jpengine.exe
+

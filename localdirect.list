@@ -7,4 +7,5 @@ DOMAIN-SUFFIX,abkc4.com
 PROCESS-NAME,msedge.exe
 PROCESS-NAME,jianpian.exe
 PROCESS-NAME,jpengine.exe
+DOMAIN-REGEX,^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$
 

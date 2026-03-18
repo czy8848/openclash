@@ -1,8 +1,8 @@
 # 内容：自定义翻墙名单
 
-DOMAIN-SUFFIX,windows.net
-DOMAIN-SUFFIX,github.com
 
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,services.googleapis.cn
 
 
 
